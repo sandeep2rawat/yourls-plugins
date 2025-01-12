@@ -1,0 +1,30 @@
+#stat_tab_ref table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+}
+#stat_tab_ref table thead tr {
+    background-color: #2a85b3;
+    color: #ffffff;
+    text-align: left;
+}
+#stat_tab_ref table th,
+#stat_tab_ref table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+#stat_tab_ref table tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+#stat_tab_ref table tbody tr:hover {
+    background-color: #e9ecef;
+}
+#stat_tab_ref h2 {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 1.5em;
+}
